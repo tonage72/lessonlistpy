@@ -1,5 +1,6 @@
 
 def main():
+
     monthDays = [["January","31"],["February","28"],["March","31"],["April","30"],["May","31"],["June","30"],["July","31"],
         ["August","31"],["September","30"],["October","31"],["November","30"],["December","31"]]
 
@@ -41,6 +42,8 @@ def main():
     finalDayNumber = askDay(arrayMonthNumber)
     numberOfLessons = askNumberOfLessons()
     displayResults(arrayMonthNumber, finalDayNumber, numberOfLessons)
+
+    input("ENTER to end program")
 
 if __name__ == '__main__':
     main()
